@@ -12,23 +12,33 @@ A highly advanced, real-time Machine Learning and Spatial Analysis system design
 
 ## 🏗️ Architecture
 
-1. **Frontend:** React + Vite + TailwindCSS + Recharts
+1. **Frontend:** React + Vite + TailwindCSS + Recharts + Framer Motion
 2. **Backend:** Python + FastAPI + Scikit-Learn + Uber H3 + SQLite3
 3. **External Services:** ip-api.com (for Live Proxy/VPN detection during manual testing), FingerprintJS (for device identification).
 
 ## 📸 Component Showcase
 
-### 1. The Analytics Dashboard
-*(Screenshot of the Tabbed Analytics Dashboard showing the Recharts)*
-![Analytics Dashboard](assets/analytics_dashboard.png)
+*(Note: Add your screenshots to the `assets/` folder with the corresponding filenames below!)*
 
-### 2. Live Stream Inference
-*(Screenshot of the Live Stream page actively processing data)*
-![Live Stream](assets/live_stream.png)
+### 1. Live Inference Stream
+The high-throughput events dashboard catching fraudulent account sharing in real-time.
+![Live Inference Stream](assets/live_inference.png)
 
-### 3. Manual Sandbox
-*(Screenshot of the Manual Testing Sandbox)*
-![Manual Sandbox](assets/manual_sandbox.png)
+### 2. Manual Testing Sandbox
+Simulate targeted attacks (impossible travel, IP spoofing) against the system.
+![Manual Sandbox](assets/sandbox.png)
+
+### 3. Analytics: Traffic Overview
+Visualizing total request volume against average ML Risk scores.
+![Traffic Overview](assets/traffic_overview.png)
+
+### 4. Analytics: Threat Vectors
+Donut breakdown of device fingerprint spoofing and a radar chart of anomaly properties.
+![Threat Vectors](assets/threat_vectors.png)
+
+### 5. Analytics: Geographic Map
+A scatter plot of login events across India, detecting impossible travel jumps instantly.
+![Geographic Map](assets/geographic_map.png)
 
 ## 💻 Getting Started
 
